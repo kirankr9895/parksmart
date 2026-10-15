@@ -1,0 +1,13 @@
+{
+  "name": "parksmart",
+  "version": "1.0.0",
+  "description": "ParkSmart - Smart Parking Reservation and Management System",
+  "private": true,
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "seed": "npm run seed --prefix backend",
+    "test": "npm run test --prefix backend",
+    "build:frontend": "npm run build --prefix frontend"
+  },
+  "keywords": ["smart-parking", "iot-simulation", "reservation-system", "bca-capstone"]
+}
